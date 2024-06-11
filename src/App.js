@@ -27,9 +27,16 @@ const newTheme = cur === "light" ? "dark" : "light";
         <p className="change-text">{theme} mode</p>
         <input onChange={switchTheme} type="checkbox" id="toggle-btn" />
         <label htmlFor="toggle-btn" className="toggle-label"></label>
+        
       <container id="Stasik">
      <div id="reveal-text">
-  AirDrop
+  AirDropBPM
+</div>
+     </container>
+
+     <container id="Mining">
+     <div id="reveal">
+  Mining coin!
 </div>
      </container>
   
@@ -46,7 +53,7 @@ const newTheme = cur === "light" ? "dark" : "light";
         <a href="https://web.telegram.org/k/#@memefi_coin_bot" class="testing">Memeficlub</a>
         </div>
         <div className='drop'>
-        <a href="https://t.me/memeficlub" class="testing">Memeficlub Chat</a>
+        <a href="https://t.me/memeficlub" class="testing">Meme Chat</a>
         </div>
         <div className='drop'>
         <a href="https://t.me/theYescoin_bot/Yescoin?startapp=rhZtnC" class="testing">Yescoin</a>
@@ -88,6 +95,11 @@ const newTheme = cur === "light" ? "dark" : "light";
         <div className='drop'>
         <a href="https://t.me/pixel_wallet_bot?start=7192352961" class="testing">Pixel Wallet</a>
         </div>
+        <div className='drop'>
+        <a href="https://t.me/pocketfi_bot/Mining?startapp=2073153774" class="testing">PocketFi</a>
+        </div>
+       
+
       </nav></Navbar>
         </container>
           

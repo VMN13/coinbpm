@@ -134,8 +134,9 @@ body {
      letter-spacing: .35em;
      text-align: center;
      color: black;
-     font-size: 35px;
+     font-size: 20px;
      text-decoration: none;
+     width: 350px;
   }
  
   a {
@@ -175,7 +176,7 @@ body {
  }
  
  #dark {
-   background-color: black;
+   background-color: rgb(37, 36, 36);
  }
  
  #light {
@@ -229,6 +230,20 @@ body {
  
    
    
+    #dark #fot {
+      display: flex;
+      justify-content: center;  
+      font-family: "Anton", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 10px;
+      font-size: 15px;
+      margin-top: 20px;
+      color: #000000;
+      background-color: dimgrey;
+      border-radius: 20px;
+    }
+    
     #light #fot {
       display: flex;
       justify-content: center;  
@@ -237,15 +252,75 @@ body {
       font-style: normal;
       letter-spacing: 10px;
       font-size: 15px;
-      margin-top: 100px;
+      margin-top: 20px;
       color: #000000;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
     }
     
+    #dark #Mining {
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      -webkit-text-stroke: 2px #000000; 
+      background-color: dimgrey;
+      border-radius: 20px;
+      margin-top: 30px;
+      height: 50px;
+      max-width: 100%;
+    }
+
+    #dark #reveal {
+      position: relative;
+      font-size: 40px;
+      letter-spacing: 10px;
+      color: #000000;
+      white-space: nowrap;
+      cursor: default;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+
+
+    #light #reveal {
+      position: relative;
+     letter-spacing: 10px;
+      
+      color: #ffffff;
+      white-space: nowrap;
+      cursor: default;
+      font-size: 40px;
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+
+    #light #Mining {
+      color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
+      -webkit-text-stroke: 2px #000000; 
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+      margin-top: 30px;
+      height: 50px;
+      max-width: 100%;
+    }
+
+
+
+
  #dark #Stasik {
    color: rgb(255, 255, 255);
    display: flex;
    justify-content: center;
    -webkit-text-stroke: 2px #000000; 
+   background-color: dimgrey;
+   border-radius: 20px;
+   letter-spacing: 10px;
  }
  
  #light #Stasik {
@@ -253,6 +328,9 @@ body {
    display: flex;
    justify-content: center;
    -webkit-text-stroke: 2px #000000; 
+   background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+   letter-spacing: 10px;
  }
  
  .shape {

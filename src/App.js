@@ -46,15 +46,12 @@ const newTheme = cur === "light" ? "dark" : "light";
         <img src="./545ebd1a-22c2-498e-8362-5413fb71b196.jpg"/>
         <div id='s'>
           
-          <div class="text-ex-tooltip">
           
-            <p>Total players</p>
+          
+            <p>Total players:</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
-          
-          </div>
+           
+    
           
           </div>
         <a href="https://t.me/herewalletbot/app?startapp=1812824" class="testing">NEAR Wallet</a>
@@ -86,9 +83,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+       
           
           </div>
           
@@ -121,9 +116,6 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
           
           </div>
           
@@ -156,9 +148,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+           
           
           </div>
           
@@ -191,9 +181,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+          
           
           </div>
           
@@ -226,9 +214,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+        
           
           </div>
           
@@ -261,9 +247,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+        
           
           </div>
           
@@ -296,9 +280,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+            
           
           </div>
           
@@ -331,9 +313,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+           
           
           </div>
           
@@ -366,9 +346,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+          
           
           </div>
           
@@ -401,9 +379,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+           
           
           </div>
           
@@ -436,9 +412,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+          
           
           </div>
           
@@ -472,9 +446,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+         
           
           </div>
           
@@ -508,9 +480,7 @@ const newTheme = cur === "light" ? "dark" : "light";
 
   <p>Total players</p>
   <p id='d'>100 millions</p>
-  <div class="tooltip-content">
-    <p>$$$ million</p>
-  </div> 
+
 
 </div>
 
@@ -545,9 +515,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+        
           
           </div>
           
@@ -580,9 +548,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+       
           
           </div>
           
@@ -615,10 +581,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
-          
+        
           </div>
           
           </div>
@@ -651,9 +614,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+       
           
           </div>
           
@@ -687,9 +648,7 @@ const newTheme = cur === "light" ? "dark" : "light";
           
             <p>Total players</p>
             <p id='d'>100 millions</p>
-            <div class="tooltip-content">
-              <p>$$$ million</p>
-            </div> 
+         
           
           </div>
           

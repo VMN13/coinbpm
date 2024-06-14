@@ -180,10 +180,7 @@ body {
     font-style: normal;
     overflow: hidden;
     text-align: center;
-    opacity: 0; /* начальное значение непрозрачности */
-    animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
-    animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-    animation-duration: 1s;
+  
    }
 
    #light #reveal-text {
@@ -198,10 +195,7 @@ body {
     font-style: normal;
     overflow: hidden;
     text-align: center;
-    opacity: 0; /* начальное значение непрозрачности */
-    animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
-    animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-    animation-duration: 1s;
+  
    }
 
   a {
@@ -217,10 +211,7 @@ body {
  margin: 20px;
  background-color: #ffffff;
  border-radius:20px;
- opacity: 0; /* начальное значение непрозрачности */
-  animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
-  animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-  animation-duration: 1s;
+
  width: 350px;
   }
 
@@ -264,10 +255,8 @@ transition: 1s;
  background-color: #3e3c3c;
  border-radius:20px;
  width: 350px;
- opacity: 0; /* начальное значение непрозрачности */
- animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
- animation-fill-mode: forwards; /* будет видимым после завершения анимации */
- animation-duration: 1s;
+
+ 
   }
  
  
@@ -337,10 +326,7 @@ transition: 1s;
       width: 350px;
       margin-left: 20px;
       height: 200px;
-      opacity: 0; /* начальное значение непрозрачности */
-      animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
-      animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-      animation-duration: 1s;
+     
     }
 
     #dark #reveal {
@@ -355,10 +341,7 @@ transition: 1s;
       font-style: normal;
       overflow: hidden;
       text-align: center;
-      opacity: 0; /* начальное значение непрозрачности */
-      animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
-      animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-      animation-duration: 1s;
+     
     }
 
 
@@ -375,10 +358,7 @@ transition: 1s;
       font-style: normal;
       text-align: center;
       overflow: hidden;
-      opacity: 0; /* начальное значение непрозрачности */
-      animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
-      animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-      animation-duration: 1s;
+    
     }
 
 #dark img {
@@ -432,10 +412,7 @@ img:hover {
       width: 350px;
       margin-left: 20px;
     height: 200px;
-    opacity: 0; /* начальное значение непрозрачности */
-    animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
-    animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-    animation-duration: 1s;
+   
     }
 
   
@@ -718,9 +695,9 @@ h1 {
 
 #Authors {
   margin-top: -45px;
-  font-family: "Gruppo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+      font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 

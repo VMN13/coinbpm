@@ -70,6 +70,40 @@ Authors:VMN OR NMS
      <container>
         <Navbar><nav>
         <div className='drop'>
+        <img src="./a06690b4-a82f-40a6-84f7-5581ba8f0bad.jpg"/>
+        
+        <a href="https://t.me/not_task_bot?start=372230858" class="testing">Not Task</a>
+       
+        <div id='flex'>
+        <div id='tguser'>
+      
+    <p>This bot with tasks with @notyou</p>
+  
+  </div>
+ 
+  <p id='min'>@notyou_en quests bot</p>
+  </div>
+ 
+        </div>
+        <div className='drop'>
+        <img src="./29d43f70-7d41-47ed-8ca3-11c0a4f70ebc.jpg"/>
+        
+        <a href="https://t.me/notyou" class="testing">notyou</a>
+       
+        <div id='flex'>
+        <div id='tguser'>
+      
+    <p>english channel - @notyou_en</p>
+  
+  </div>
+ 
+  <p id='min'>@not_task_bot - Quests on our channel. Cooperation - @mannft. Technical issues-@rbx_n</p>
+  </div>
+ 
+        </div>
+
+
+        <div className='drop'>
         <img src="./cf4b37ec-cb63-48b1-8f31-c33a264d84ec.jpg"/>
         
         <a href="https://t.me/BlumCryptoBot/app?startapp=ref_44yiaiaqGW" class="testing">BLUM</a>

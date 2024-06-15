@@ -224,7 +224,7 @@ body {
    }
 
    #light a.testing:hover {
-    background-color: #e48989;
+    background-color: wheat;
     letter-spacing: 20px;
     transition: 1s;
     width: 100rem;
@@ -326,7 +326,9 @@ transition: 1s;
       width: 350px;
       margin-left: 20px;
       height: 200px;
-     
+      border: 1px solid;
+      border-color: wheat;
+      transition: 1s;
     }
 
     #dark #reveal {
@@ -381,6 +383,7 @@ transition: 1s;
   margin-top: 8%;
   border-radius: 20px;
   margin-left: 10px;
+  filter: drop-shadow(5px 10px 10px rgb(56, 99, 207));
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
 }
@@ -412,7 +415,9 @@ img:hover {
       width: 350px;
       margin-left: 20px;
     height: 200px;
-   
+    border: 1px solid;
+    border-color: rgb(56, 99, 207);
+    transition: 1s;
     }
 
   
@@ -424,7 +429,9 @@ img:hover {
   background-color: dimgrey;
   border-radius: 10px;
   letter-spacing: 20px;
- 
+  border: 1px solid;
+  border-color: wheat;
+  transition: 1s;
   width: 160px;
 }
 
@@ -437,7 +444,9 @@ img:hover {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   letter-spacing: 20px;
-  
+  border: 1px solid;
+  border-color: rgb(56, 99, 207);
+  transition: 1s;
   width: 160px;
 
 }
@@ -455,6 +464,9 @@ img:hover {
   letter-spacing: 20px;
   margin-right: -20px;
   width: 160px;
+  border: 1px solid;
+      border-color: wheat;
+      transition: 1s;
  }
  
  #light #Stasik {
@@ -467,6 +479,9 @@ img:hover {
    letter-spacing: 20px;
     margin-right: -20px;
     width: 160px;
+    border: 1px solid;
+    border-color: rgb(56, 99, 207);
+    transition: 1s;
  }
  
  .shape {
@@ -485,6 +500,10 @@ img:hover {
    justify-content: center;
  
  }
+
+
+
+
  
  #dark .toggle-label {
    display: block;
@@ -496,9 +515,11 @@ img:hover {
    position: relative;
    transition: background-color 0.3s, box-shadow 0.3s;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-   margin: 10px;
-   margin-left: 300px;
-  
+   margin-top: -15px;
+   margin-left: 170px;
+   border: 1px solid;
+   border-color: wheat;
+   transition: 1s;
  }
  
  
@@ -512,8 +533,11 @@ img:hover {
    position: relative;
    transition: background-color 0.3s, box-shadow 0.3s;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-   margin: 10px;
-   margin-left: 300px;
+   margin-top: -15px;
+   margin-left: 170px;
+   border: 1px solid;
+   border-color: rgb(56, 99, 207);
+   transition: 1s;
  }
  
  #light .toggle-label::before {
@@ -563,7 +587,7 @@ img:hover {
    color: #ffffff;
    white-space: nowrap;
    text-transform: capitalize;
-   margin-left: 250px;
+   margin-left: 130px;
  }
  
  #light .change-text {
@@ -572,7 +596,7 @@ img:hover {
    color: #000000;
    white-space: nowrap;
    text-transform: capitalize;
-   margin-left: 250px;
+   margin-left: 130px;
  }
 
 
@@ -589,6 +613,7 @@ img:hover {
   transform: none;
   box-shadow:none;
   filter: none;
+  margin-left: 280px;
  }
 
  #dark #BPM {
@@ -617,7 +642,7 @@ h1 {
   width: 400px;
   overflow-y:auto;
  overflow-x: hidden;
- margin-top: 20px;
+ margin-top: 10px;
 }
 
 #xlex {
@@ -674,7 +699,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-transform: capitalize;
-  color: rgb(85, 85, 85);
+  color: rgb(56, 99, 207);
   font-size: 11px;
   
 }
@@ -694,11 +719,13 @@ h1 {
 
 
 #Authors {
-  margin-top: -60px;
+  margin-top: -100px;
       font-family: "Gruppo", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+
 
 
 

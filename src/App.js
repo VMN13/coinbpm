@@ -24,12 +24,14 @@ const newTheme = cur === "light" ? "dark" : "light";
 
 <div className="wrapper" id={theme}>
       <div className="toggle-container">
-
+      <div id='mode'>
+       
         <p className="change-text">{theme} mode</p>
+      
         <input onChange={switchTheme} type="checkbox" id="toggle-btn" />
         
         <label htmlFor="toggle-btn" className="toggle-label"></label>
-        
+        </div>
       <container id='head'>
       <div id="Stasik">
         

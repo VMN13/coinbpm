@@ -180,7 +180,8 @@ body {
     font-style: normal;
     overflow: hidden;
     text-align: center;
-  
+    padding: 5px;
+    width: 340px;
    }
 
    #light #reveal-text {
@@ -195,7 +196,8 @@ body {
     font-style: normal;
     overflow: hidden;
     text-align: center;
-  
+    padding: 5px;
+    width: 340px;
    }
 
   a {
@@ -317,7 +319,7 @@ transition: 1s;
       display: flex;
       justify-content: center;
       -webkit-text-stroke: 2px #000000;
-      background-color: dimgrey;
+      background-color: wheat;
       border-radius: 20px;
       letter-spacing: 10px;
       flex-wrap: wrap;
@@ -327,7 +329,7 @@ transition: 1s;
       margin-left: 20px;
       height: 200px;
       border: 1px solid;
-      border-color: wheat;
+      border-color: rgb(255, 255, 255);
       transition: 1s;
     }
 
@@ -365,32 +367,39 @@ transition: 1s;
 
 #dark img {
   height: 40px;
-  width: 40px;
+  width: 120px;
   margin: 20px;
   margin-top: 8%;
   border-radius: 20px;
   margin-left: 10px;
   filter: drop-shadow(5px 10px 10px orange);
-
+  transition-timing-function: linear;
+  transition-duration: 0.4s;
+  transition-property: color;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
+  overflow: hidden;
 }
 
 #light img {
   height: 40px;
-  width: 40px;
+  width: 120px;
   margin: 20px;
   margin-top: 8%;
   border-radius: 20px;
   margin-left: 10px;
   filter: drop-shadow(5px 10px 10px rgb(56, 99, 207));
+  transition-timing-function: linear;
+  transition-duration: 0.4s;
+  transition-property: color;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
+  overflow: hidden;
 }
 
 img:hover {
-  -webkit-transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
-          transform: rotate(360deg); /* Градусы поворота можно изменить по необходимости */
+  -webkit-transform: rotate(1080deg); /* Градусы поворота можно изменить по необходимости */
+          transform: rotate(1080deg); /* Градусы поворота можно изменить по необходимости */
 }
    #head {
     display:flex;
@@ -459,11 +468,11 @@ img:hover {
   display: flex;
   justify-content: center;
   -webkit-text-stroke: 2px #000000;
-  background-color: dimgrey;
+  background-color: #3e3c3c;
   border-radius: 10px;
   letter-spacing: 20px;
-  margin-right: -20px;
-  width: 160px;
+
+
   border: 1px solid;
       border-color: wheat;
       transition: 1s;
@@ -477,8 +486,8 @@ img:hover {
    background-color: rgb(255, 255, 255);
    border-radius: 10px;
    letter-spacing: 20px;
-    margin-right: -20px;
-    width: 160px;
+    
+    
     border: 1px solid;
     border-color: rgb(56, 99, 207);
     transition: 1s;
@@ -604,23 +613,22 @@ img:hover {
   display: flex;
   font-size: 24px;
   color: #ffffff;
-
+  margin-top: -20px;
  }
 
  img#podpis {
-  height: 70px;
-  width: 120px;
+  height: 60px;
   transform: none;
-  box-shadow:none;
-  filter: none;
-  margin-left: 280px;
+    box-shadow: none;
+    filter: none;
+    margin-left: 203px;
  }
 
  #dark #BPM {
   display: flex;
   font-size: 24px;
   color: #000000;
-
+  margin-top: -20px;
  }
 
 
@@ -723,6 +731,7 @@ h1 {
       font-family: "Gruppo", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 40px;
 }
 
 

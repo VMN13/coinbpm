@@ -36,32 +36,27 @@ const newTheme = cur === "light" ? "dark" : "light";
       <div id="Stasik">
         
      <div id="reveal-text">
-  Air
+  Air Drop
 </div>
 </div>
   
 
   
-     <div id="Drop">
-      
-     <div id="reveal">
-      
-  DROP
-</div>
-   </div>
+    
+   
    </container>
 
      <div id="Mining">
      <div id="BPM">
-    
+     BPM CARD
      </div>
-  BPM CARD
+
   <img id="podpis" src="./Без названия (5).png"/>
  
   
 
 <div id="Authors">
-Authors:VMN OR NMS
+<h2>@VMNid</h2>
 <h2 className='mine'>mine coins and earn dollars!
 </h2>
 </div>
